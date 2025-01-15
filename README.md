@@ -17,10 +17,10 @@ Once installed, you can use the package to generate random Persian names in your
 
 ### Importing the Package
 
-To use the package, import the `PersianNameGenerators` class:
+To use the package, import the `PersianNameGenerator` class:
 
 ```python
-from PersianNameGenerator import PersianNameGenerators
+from PersianNameGenerator import PersianNameGenerator
 ```
 
 ### Example Code
@@ -28,8 +28,8 @@ from PersianNameGenerator import PersianNameGenerators
 Here’s an example of how you can generate random Persian names:
 
 ```python
-# Create an instance of the PersianNameGenerators class
-name_generator = PersianNameGenerators()
+# Create an instance of the PersianNameGenerator class
+name_generator = PersianNameGenerator()
 
 # Generate a random first name
 first_name = name_generator.getFirstName()
